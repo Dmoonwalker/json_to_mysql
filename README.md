@@ -39,7 +39,6 @@ The purpose of the PHP script is to automate the process of inserting JSON data 
 
 ### Usage
 
-```bash
 php json_to_mysql.php --file <json_file> --database <database_name> --table <table_name> [--server <server_name>] [--user <username>] [--password <password>]
 --file <json_file>: Path to the JSON file containing the data to be inserted.
 --database <database_name>: Name of the MySQL database where the table will be created and data will be inserted.
@@ -61,11 +60,10 @@ php json_to_mysql.php --file data.json --database my_database --table my_table -
 This command will read the data from 'data.json' and insert it into the 'my_table' table in the 'my_database'
 database on the MySQL server running at 'localhost', using the specified username and password.
 
-Python Script
-Purpose
+***Python Script***
 The purpose of the Python script is to automate the process of inserting JSON data into a MySQL database using Python.
 
-Prerequisites
+**Prerequisites**
 Python installed on your system
 Access to a MySQL database
 JSON data file to be converted
