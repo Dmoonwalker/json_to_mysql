@@ -1,6 +1,6 @@
 Sure, here's the updated README.md with the additional notes included:
 
-
+```markdown
 # JSON to MySQL Converter
 
 This script converts JSON data into a MySQL database table. Each JSON object is inserted as a separate row in the table, with the keys in the JSON objects mapped to column names in the table.
@@ -38,7 +38,9 @@ php json_to_mysql.php --file <json_file> --database <database_name> --table <tab
 
 ### Example
 
+```bash
 php json_to_mysql.php --file data.json --database my_database --table my_table --server localhost --user my_username --password my_password
+```
 
 This command will read the data from 'data.json' and insert it into the 'my_table' table in the 'my_database' database on the MySQL server running at 'localhost', using the specified username and password.
 
@@ -56,7 +58,9 @@ The purpose of the Python script is to automate the process of inserting JSON da
 
 ### Usage
 
+```bash
 python json_to_mysql.py --file <json_file> --database <database_name> --table <table_name> [--server <server_name>] [--user <username>] [--password <password>]
+```
 
 - `--file <json_file>`: Path to the JSON file containing the data to be inserted.
 - `--database <database_name>`: Name of the MySQL database where the table will be created and data will be inserted.
@@ -73,9 +77,11 @@ python json_to_mysql.py --file <json_file> --database <database_name> --table <t
 
 ### Example
 
+```bash
 python json_to_mysql.py --file data.json --database my_database --table my_table --server localhost --user my_username --password my_password
-
+```
 
 This command will read the data from 'data.json' and insert it into the 'my_table' table in the 'my_database' database on the MySQL server running at 'localhost', using the specified username and password.
+```
 
 Feel free to use and modify this README.md for your project! Let me know if you need any further assistance.
