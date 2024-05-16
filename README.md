@@ -1,6 +1,5 @@
 Sure, here's the updated README.md with the additional notes included:
 
-```markdown
 # JSON to MySQL Converter
 
 This script converts JSON data into a MySQL database table. Each JSON object is inserted as a separate row in the table, with the keys in the JSON objects mapped to column names in the table.
